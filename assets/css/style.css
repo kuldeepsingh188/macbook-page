@@ -1,0 +1,19 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1312px !important;
+}
+
+.bg_image{
+    background-image: url(../image/png/bg-image.png);
+}
+
+/* -----------font-weight-------- */
