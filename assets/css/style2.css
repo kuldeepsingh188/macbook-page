@@ -1,4 +1,6 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     text-decoration: none !important;
@@ -6,10 +8,59 @@
     box-sizing: border-box;
 }
 
-.container{
+.container_css {
     max-width: 1320px !important;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.bg_img2 {
+    background-image: url(../image/png/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg_body {
+    background: #F1F3F6;
+}
+
+/* MODIFY CLASSES  */
+.section_transform {
+    transform: translateY(-50%);
+    padding: 100px;
+
+}
+.white_box{
+    background-color: white;
+    padding: 54px 46px;
+    border-radius: 39px 0px 0px 0px;
+}
+
+
+/* FONT CLASSES  */
+.ff_popins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fs_xsm {
+    font-size: 16px;
+}
+
+.fs_sm {
+    font-size: 17px;
+}
+
+.fs_md {
+    font-size: 20px;
+}
+
+.fs_lg {
+    font-size: 35px;
+}
+
+.fs_xl {
+    font-size: 60px;
 }
