@@ -38,6 +38,18 @@
     padding: 54px 46px;
     border-radius: 39px 0px 0px 0px;
 }
+.contact_btn{
+    padding: 13px 36px;
+    background-color: black;
+    border-radius: 27px;
+    color:#ffffff;
+
+}
+.contact_btn:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
 
 
 /* FONT CLASSES  */
