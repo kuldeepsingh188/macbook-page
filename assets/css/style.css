@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(./root.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +22,11 @@
 }
 
 /* ----------color---------- */
-.bg_white{
+.bg_white {
     background: #FFFFFF;
 }
 
-.bg_gray_f6{
+.bg_gray_f6 {
     background: #F1F3F6;
 }
 
@@ -57,7 +58,7 @@
     font-weight: 500;
 }
 
-.fw_600{
+.fw_600 {
     font-weight: 600;
 }
 
@@ -70,26 +71,32 @@
 /* ------font-size-------------- */
 
 
-.fs_xsm{
+.fs_xsm {
     font-size: var(--xsm-fs)
 }
+
 .fs_sm {
     font-style: var(--sm-fs);
 }
 
 .fs_md {
-    font-size:var(--md-fs);
+    font-size: var(--md-fs);
 }
 
-.fs_lg{
-    font-size:var(--lg-fs);
+.fs_lg {
+    font-size: var(--lg-fs);
 }
 
 .fs_xl {
-    font-size:var(--xl-fs);
+    font-size: var(--xl-fs);
 }
+
 .fs_xxl {
-    font-size:var(--xxl-fs);
+    font-size: var(--xxl-fs);
+}
+
+ul li a:hover{
+    color: black;
 }
 
 .contact_us {
@@ -97,6 +104,11 @@
     border: 3px solid #FFFFFF;
     border-radius: 27px;
     padding: 13px 36px;
+}
+.contact_us:hover{
+    color: black;
+    border: 3px solid black;
+    
 }
 
 .nav_sticky {
@@ -108,23 +120,30 @@
     border: none;
     padding: 13px 36px;
     border-radius: 27px;
+    transition: all 200ms linear;
 }
 
-.text_jestify{
+.know:hover {
+    color: #FFFFFF;
+    background: black;
+}
+
+.text_jestify {
     text-align: justify;
 }
 
-.transform-50{
-    transform: translateY(-50%);
+.transform-50 {
+    transform: translateY(30%);
 }
+
 /* .---we belive---- */
-.belive{
-max-width: 742px;
+.belive {
+    max-width: 742px;
 }
 
 
 .pt-6 {
-    padding-top: 3.3rem!important;
+    padding-top: 3.3rem !important;
 }
 
 
@@ -133,11 +152,13 @@ max-width: 742px;
 @media (max-width: 768px) {
     .nav {
         position: absolute;
-        top: 52px;
+        top: 48px;
         left: -100%;
         width: 100%;
         height: 100vh;
-        background-color: aqua;
+        background-color:black;
+        opacity: 0.9;
+        backdrop-filter: (100);
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -155,11 +176,17 @@ max-width: 742px;
         left: 0;
     }
 
-    .transform-50{
+    .transform-50 {
         transform: translateY(0);
     }
 }
 
-@media (screen) {
-    
+@media (max-width:576px) {
+    .fs_xxl {
+        font-size: var(--xl-fs);
+    }
+
+    .fs_xl {
+        font-size: var(--lg-fs);
+    }
 }
