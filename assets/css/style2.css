@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url(../css/root.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -20,35 +21,36 @@
     background-image: url(../image/png/bg-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .bg_body {
-    background: #F1F3F6;
+    background: #f1f3f6;
+}
+.vh_60{
+    height: 70vh;
 }
 
 /* MODIFY CLASSES  */
 .section_transform {
     transform: none;
     padding: 100px;
-
 }
 
-.contact_btn{
+.contact_btn {
     padding: 13px 36px;
     background-color: black;
     border-radius: 27px;
-    color:#ffffff;
-
+    color: #ffffff;
 }
-.contact_btn:hover{
+
+.contact_btn:hover {
     background-color: #ffffff;
     color: black;
     border: 1px solid black;
 }
+
 .upperline {
     position: relative;
-
 }
 
 .upperline::after {
@@ -57,30 +59,32 @@
     left: 0;
     top: 0;
     height: 1px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 100%;
 }
-.overflow_img_primary{
+
+.overflow_img_primary {
     position: absolute;
     display: flex;
     right: 0;
     padding: 0;
-    
 }
-.overflow_img_secondary{
+
+.overflow_img_secondary {
     position: absolute;
     display: flex;
     top: 0;
     left: 0;
     padding: 0;
-    
 }
-.white_box_primary{
+
+.white_box_primary {
     background-color: white;
     padding: 54px 46px !important;
     border-radius: 39px 0px 0px 0px;
 }
-.white_box_secondary{
+
+.white_box_secondary {
     background-color: white;
     padding: 43px 120px !important;
     border-radius: 0px 39px 0px 0px;
@@ -88,35 +92,36 @@
 
 /* FONT CLASSES  */
 .ff_popins {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.fs_xsm{
-    font-size: var(--xsm-fs)
+.fs_xsm {
+    font-size: var(--xsm-fs);
 }
+
 .fs_sm {
     font-style: var(--sm-fs);
 }
 
 .fs_md {
-    font-size:var(--md-fs);
+    font-size: var(--md-fs);
 }
 
-.fs_lg{
-    font-size:var(--lg-fs);
+.fs_lg {
+    font-size: var(--lg-fs);
 }
 
 .fs_xl {
-    font-size:var(--xl-fs);
+    font-size: var(--xl-fs);
 }
+
 .fs_xxl {
-    font-size:var(--xxl-fs);
+    font-size: var(--xxl-fs);
 }
-@media (min-width:992px) {
-    
+
+@media (min-width: 992px) {
     .section_transform {
         transform: translateY(-50%);
         padding: 100px;
-    
     }
 }
