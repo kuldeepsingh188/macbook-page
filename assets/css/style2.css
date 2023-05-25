@@ -50,7 +50,11 @@
     color: black;
     border: 1px solid black;
 }
-
+.footer_icons{
+    background: rgba(255, 255, 255,0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
 
 /* FONT CLASSES  */
 .ff_popins {
