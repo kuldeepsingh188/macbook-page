@@ -25,6 +25,10 @@
     background: #FFFFFF;
 }
 
+.bg_gray_f6{
+    background: #F1F3F6;
+}
+
 .cl_white {
     color: #FFFFFF;
 }
@@ -66,23 +70,26 @@
 /* ------font-size-------------- */
 
 
-.fs_16{
-    font-size: 16px;
+.fs_xsm{
+    font-size: var(--xsm-fs)
 }
-.fs_20 {
-    font-style: 20px;
-}
-
-.fs_30 {
-    font-size: 30px;
+.fs_sm {
+    font-style: var(--sm-fs);
 }
 
-.fs_35 {
-    font-size: 35px;
+.fs_md {
+    font-size:var(--md-fs);
 }
 
-.fs_60 {
-    font-size: 60px;
+.fs_lg{
+    font-size:var(--lg-fs);
+}
+
+.fs_xl {
+    font-size:var(--xl-fs);
+}
+.fs_xxl {
+    font-size:var(--xxl-fs);
 }
 
 .contact_us {
@@ -107,13 +114,26 @@
     text-align: justify;
 }
 
+.transform-50{
+    transform: translateY(-50%);
+}
+/* .---we belive---- */
+.belive{
+max-width: 742px;
+}
+
+
+.pt-6 {
+    padding-top: 3.3rem!important;
+}
+
 
 
 
 @media (max-width: 768px) {
     .nav {
         position: absolute;
-        top: 0;
+        top: 52px;
         left: -100%;
         width: 100%;
         height: 100vh;
@@ -134,4 +154,12 @@
     .show {
         left: 0;
     }
+
+    .transform-50{
+        transform: translateY(0);
+    }
+}
+
+@media (screen) {
+    
 }

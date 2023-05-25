@@ -14,33 +14,44 @@
 </head>
 
 <body>
-    <div class="bg_image">
-        <div class="container ">
-            <nav class="d-flex justify-content-between align-items-center">
-                <div class="d-flex py-md-5">
-                    <img class="" src="./assets/image/svg/arrow.svg" alt="arrow">
-                    <p class="m-0 fw_700 fs_35">Zillion</p>
-                </div>
-                <ul class="list-unstyled ff_poppins d-flex align-items-center gap-4 m-0 nav " id="menu">
-                    <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">Home</a></li>
-                    <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">Services</a></li>
-                    <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">Investors</a></li>
-                    <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">About Us</a></li>
-                    <li><a class="text-decoration-none  fw_500 fs_20 cl_white contact_us" href="#">Contact Us</a></li>
-                </ul>
-                <a class="icon menu-icon fs_35 d-md-none" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </nav>
+    <div class="bg_image nav_sticky z-2 m-0">
+        <div class="nav_sticky">
+            <div class="container ">
+                <nav class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex py-md-5">
+                        <img class="" src="./assets/image/svg/arrow.svg" alt="arrow">
+                        <p class="m-0 fw_700 fs_35">Zillion</p>
+                    </div>
+                    <ul class="list-unstyled ff_poppins d-flex align-items-center gap-4 m-0 nav " id="menu">
+                        <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">Home</a></li>
+                        <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">Services</a></li>
+                        <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">Investors</a></li>
+                        <li><a class="text-decoration-none  fw_500 fs_20 cl_white" href="#">About Us</a></li>
+                        <li><a class="text-decoration-none  fw_500 fs_20 cl_white contact_us" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <a class="icon menu-icon fs_35 d-md-none" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="bg_image ">
+        <div class="container">
             <div class="pb-5">
                 <p class="ff_poppins fw_500 fs_60 cl_white smarter m-auto py-5">A smarter way to invest and save for the
                     future</p>
                 <button class="know m-auto d-flex justify-content-center ">Know More</button>
             </div>
         </div>
-        <div class="container">
+    </section>
+
+    <!-- funds and spv -->
+    <section class="bg_gray_f6">
+        <div class="container transform-50">
             <div class="row bg_white">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="text-center">
                         <img class="py-4" src="./assets/image/png/staring.png" alt="starying">
                         <p class="ff_poppins fw_500 fs_30 m-0">Define</p>
@@ -50,7 +61,7 @@
                         complex
                         legal entities such as funds ans SPVs inhours with a few clicks</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="text-center">
                         <img class="py-4" src="./assets/image/png/oxx.png" alt="starying">
                         <p class="ff_poppins fw_500 fs_30 pb-2 m-0">Strategy</p>
@@ -60,7 +71,7 @@
                         complex
                         legal entities such as funds ans SPVs inhours with a few clicks</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-6 m-auto">
                     <div class="text-center">
                         <img class="py-4" src="./assets/image/png/iron-plate.png" alt="starying">
                         <p class="ff_poppins fw_500 fs_30 pb-2 m-0">Build</p>
@@ -72,40 +83,98 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- funds and spv -->
-    <section>
-        <div class="container">
+        <div class="container py-5">
             <div class="row">
-                <div class="col-7">
+                <div class="col-md-7">
                     <p class="ff_poppins fw_600 fs_35 text_jestify">Funds & SPVsmade simple</p>
-                    <p class="ff_poppins fw_400 fs_16 cl_151">Zillion is a wealth Container platform. It lets you set-up
+                    <p class="ff_poppins fw_400 fs_16 cl_151 pb-5">Zillion is a wealth Container platform. It lets you
+                        set-up
                         and deploy complex legal entities such
                         as Funds and SPVs in hours with a few clicks. From initial structureing to NAV calculation, it
                         is a fully integrated, one-stop shop platform catering for all your needs.</p>
                     <div class="row">
-                        <div class="col-6 d-flex">
-                            <div class="d-flex">
+                        <div class=" col-sm-6">
+                            <div class="d-flex pt-4 justify-content-center justify-content-sm-start align-items-center">
                                 <span class="">
                                     <img src="./assets/image/png/right-arrow.png" alt="">
                                 </span>
-                                <p class="ff_poppins fw_500 fs_20 ">Transactional Banking</p>
+                                <p class="ff_poppins fw_500 fs_20 ps-3 m-0">Transactional Banking</p>
+                            </div>
+                            <div class="d-flex pt-4 justify-content-center justify-content-sm-start align-items-center">
+                                <span class="">
+                                    <img src="./assets/image/png/right-arrow.png" alt="">
+                                </span>
+                                <p class="ff_poppins fw_500 fs_20 ps-3 m-0">Transactional Banking</p>
+                            </div>
+                            <div class="d-flex pt-4 justify-content-center justify-content-sm-start align-items-center">
+                                <span class="">
+                                    <img src="./assets/image/png/right-arrow.png" alt="">
+                                </span>
+                                <p class="ff_poppins fw_500 fs_20 ps-3 m-0">Transactional Banking</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6">
+                            <div class="d-flex pt-4 justify-content-center justify-content-sm-start align-items-center">
+                                <span class="">
+                                    <img src="./assets/image/png/right-arrow.png" alt="">
+                                </span>
+                                <p class="ff_poppins fw_500 fs_20 ps-3 m-0">Transactional Banking</p>
+                            </div>
+                            <div class="d-flex pt-4 justify-content-center justify-content-sm-start align-items-center">
+                                <span class="">
+                                    <img src="./assets/image/png/right-arrow.png" alt="">
+                                </span>
+                                <p class="ff_poppins fw_500 fs_20 ps-3 m-0">Transactional Banking</p>
+                            </div>
+                            <div class="d-flex pt-4 justify-content-center justify-content-sm-start align-items-center">
+                                <span class="">
+                                    <img src="./assets/image/png/right-arrow.png" alt="">
+                                </span>
+                                <p class="ff_poppins fw_500 fs_20 ps-3 m-0">Transactional Banking</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-5">
-                    <img src="./assets/image/png/saving_money.png" alt="">
-
+                <div class="col-md-5 py-3">
+                    <img class="w-100" src="./assets/image/png/saving_money.png" alt="">
                 </div>
             </div>
         </div>
+    </section>
+    <!-- we beleve -->
+    <section>
+        <div class="container py-5">
+            <p class="ff_poppins fw_600 fs_35 belive m-auto py-5">We believe that strong managment team is critical to
+                an investment’s success</p>
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-6">
+                    <img src="./assets/image/png/flaing-man.png" alt="flaing-man">
+                    <h3 class="ff_poppins fw_600 fs_20 pt-4">Strong Fundamentals</h3>
+                    <p class="ff_poppins fw_400 fs_16 cl_151 pt-2 ">Focus on bussiness with strong fundementals that
+                        trade at value multiple where can drive risk-return outcomes</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="./assets/image/png/flaing-man2.png" alt="flaing-man">
+                    <h3 class="ff_poppins fw_600 fs_20 pt-6">First of Capital Institutional</h3>
+                    <p class="ff_poppins fw_400 fs_16 cl_151 pt-2 ">Seek out opportunities to professionalize and
+                        institutionalize bussiness with prior owners and managers.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 overflow-hidden">
+                    <img src="./assets/image/png/fling-man.png" alt="flaing-man">
+                    <h3 class="ff_poppins fw_600 fs_20 pt-4">Control Oriented Investments</h3>
+                    <p class="ff_poppins fw_400 fs_16 cl_151 pt-2 ">Primarily business services, niche consumers,
+                        andmiche manufacturing sectors</p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <script>
         let menu = document.getElementById("menu")
         function myFunction() {
             menu.classList.toggle("show")
+            document.body.classList.toggle("overflow-hidden")
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
