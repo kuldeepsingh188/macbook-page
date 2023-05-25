@@ -9,8 +9,12 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1312px !important;
+.container_css {
+    max-width: 1320px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .bg_image {
@@ -22,6 +26,22 @@
 }
 
 /* ----------color---------- */
+.bg_img2 {
+    background-image: url(../image/png/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_body {
+    background: #f1f3f6;
+}
+.vh_60{
+    height: 70vh;
+}
+
+
+
+
 .bg_white {
     background: #FFFFFF;
 }
@@ -44,7 +64,7 @@
 }
 
 .ff_poppins {
-    font-family: 'poppins';
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -145,7 +165,71 @@ ul li a:hover{
 .pt-6 {
     padding-top: 3.3rem !important;
 }
+/* MODIFY CLASSES  */
+.section_transform {
+    transform: none;
+    padding: 100px;
+}
 
+.contact_btn {
+    padding: 13px 36px;
+    background-color: black;
+    border-radius: 27px;
+    color: #ffffff;
+}
+
+.contact_btn:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+
+.upperline {
+    position: relative;
+}
+
+.upperline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.overflow_img_primary {
+    position: absolute;
+    display: flex;
+    right: 0;
+    padding: 0;
+}
+
+.overflow_img_secondary {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.white_box_primary {
+    background-color: white;
+    padding: 54px 46px !important;
+    border-radius: 39px 0px 0px 0px;
+}
+
+.white_box_secondary {
+    background-color: white;
+    padding: 43px 120px !important;
+    border-radius: 0px 39px 0px 0px;
+}
+@media (min-width: 992px) {
+    .section_transform {
+        transform: translateY(-50%);
+        padding: 100px;
+    }
+}
 
 
 
