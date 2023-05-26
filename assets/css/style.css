@@ -180,6 +180,7 @@ background-color: #FFFFFF;
     background-color: black;
     border-radius: 27px;
     color: #ffffff;
+    border: 1px solid black;
 }
 
 .contact_btn:hover {
@@ -305,6 +306,9 @@ footer span img:hover{
 
     .transform-50 {
         transform: translateY(0);
+    }
+    .column_md_reverse{
+        flex-direction: column-reverse;
     }
 }
 
