@@ -4,8 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    text-decoration: none;
+    list-style-type: none !important;
+    text-decoration: none !important;
     box-sizing: border-box;
 }
 
@@ -118,7 +118,11 @@
 ul li a:hover{
     color: black;
 }
-
+footer ul li:hover {
+    cursor: pointer;
+    
+    
+}
 .contact_us {
     background: rgba(207, 207, 207, 0.22);
     border: 3px solid #FFFFFF;
@@ -166,6 +170,11 @@ ul li a:hover{
     padding-top: 3.3rem !important;
 }
 /* MODIFY CLASSES  */
+.infobox {
+padding: 52px 80px ;
+background-color: #FFFFFF;
+}
+
 .section_transform {
     transform: none;
     padding: 100px;
@@ -199,18 +208,11 @@ ul li a:hover{
 }
 
 .overflow_img_primary {
-    position: absolute;
-    display: flex;
-    right: 0;
-    padding: 0;
+  
 }
 
 .overflow_img_secondary {
-    position: absolute;
-    display: flex;
-    top: 0;
-    left: 0;
-    padding: 0;
+   transform: translateX(-50%);
 }
 
 .white_box_primary {
@@ -228,6 +230,11 @@ ul li a:hover{
     .section_transform {
         transform: translateY(-50%);
         padding: 100px;
+    }
+}
+@media (max-width:992px) {
+    .column_reverse{
+        flex-direction: column-reverse;
     }
 }
 
