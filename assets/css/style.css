@@ -17,16 +17,14 @@
     padding-right: 15px;
 }
 
-.bg_image {
-    background-image: url(../image/png/bg-image.png);
-}
+
 
 .smarter {
     max-width: 729px;
 }
 
-/* ----------color---------- */
-.bg_img2 {
+/* ----------color AND BACK GROUND---------- */
+.bg_image {
     background-image: url(../image/png/bg-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,11 +34,8 @@
     background: #f1f3f6;
 }
 .vh_60{
-    height: 70vh;
+    height: 60vh;
 }
-
-
-
 
 .bg_white {
     background: #FFFFFF;
@@ -114,7 +109,7 @@
 .fs_xxl {
     font-size: var(--xxl-fs);
 }
-
+ /* MODIFY KULDEEP CLASES  */
 ul li a:hover{
     color: black;
 }
@@ -169,7 +164,7 @@ footer ul li:hover {
 .pt-6 {
     padding-top: 3.3rem !important;
 }
-/* MODIFY CLASSES  */
+/* MODIFY CLASSES PANKAJ */
 .infobox {
 padding: 52px 80px ;
 background-color: #FFFFFF;
@@ -206,14 +201,20 @@ background-color: #FFFFFF;
     background-color: #ffffff;
     width: 100%;
 }
+/* .overflow_img_primary {
+    position: absolute;
+    display: flex;
+    right: 0;
+    padding: 0;
 
-.overflow_img_primary {
-  
 }
 
 .overflow_img_secondary {
-   transform: translateX(-50%);
-}
+    position: absolute;
+    display: flex;
+    left: 0;
+    padding: 0;
+} */
 
 .white_box_primary {
     background-color: white;
@@ -226,23 +227,47 @@ background-color: #FFFFFF;
     padding: 43px 120px !important;
     border-radius: 0px 39px 0px 0px;
 }
-@media (max-width: 992px) {
+footer span img:hover{
+    cursor: pointer;
+}
+
+/* PANKAJ MEDIA QUERY  */
+@media (min-width:1300px) {
+    .overflow_img_primary {
+        position: absolute;
+        display: flex;
+        right: 0;
+        padding: 0;
+    
+    }
+    
+    .overflow_img_secondary {
+        position: absolute;
+        display: flex;
+        left: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+@media (min-width:992px) {
     .section_transform {
         transform: translateY(-50%);
         padding: 100px;
     }
-
-    .col_reverse{
-        flex-direction: column-reverse;
-    }
+   
+    
+   
 }
+/* KULDEEP MEDIA QUERY  */
 @media (max-width:992px) {
     .column_reverse{
         flex-direction: column-reverse;
     }
+   
 }
-
-
 
 @media (max-width: 768px) {
     .nav {
