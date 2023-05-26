@@ -235,8 +235,6 @@ ul li a:hover{
     }
 }
 
-
-
 @media (max-width: 768px) {
     .nav {
         position: absolute;
