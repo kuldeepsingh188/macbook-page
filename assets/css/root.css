@@ -15,3 +15,30 @@
     --xxl-fs: 60px;
     
 }
+@media (max-width:992px) {
+    :root{
+        --md-fs: 18px;
+        --lg-fs: 27px;
+        --xl-fs: 32px;
+        --xxl-fs: 55px;
+        
+    }
+}
+@media (max-width:768px) {
+    :root{
+        --md-fs: 18px;
+        --lg-fs: 25px;
+        --xl-fs: 30px;
+        --xxl-fs: 52px;
+        
+    }
+}
+@media (max-width:576px) {
+    :root{
+        --md-fs: 18px;
+        --lg-fs: 23px;
+        --xl-fs: 28px;
+        --xxl-fs: 50px;
+        
+    }
+}

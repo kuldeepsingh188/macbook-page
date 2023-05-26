@@ -274,6 +274,22 @@ footer span img:hover{
     .column_reverse{
         flex-direction: column-reverse;
     }
+    .white_box_primary {
+        background-color: white;
+        padding: 54px 46px !important;
+        border-radius: 39px 0px 0px 0px;
+    }
+    
+    .white_box_secondary {
+        background-color: white;
+        padding: 43px 120px !important;
+        border-radius: 0px 39px 0px 0px;
+    }
+    .white_box_3rd {
+        background-color: white;
+        padding: 43px 113px !important;
+        border-radius: 39px 0px 0px 0px;
+    }
    
 }
 
@@ -310,14 +326,31 @@ footer span img:hover{
     .column_md_reverse{
         flex-direction: column-reverse;
     }
-}
+    .white_box_primary {
+        padding: 20px 30px !important; 
+    }
+    
+    .white_box_secondary {
+        padding: 20px 40px !important;
+    }
+    .white_box_3rd {
+        padding: 20px 40px !important;
+    }
+   
 
+
+}
 @media (max-width:576px) {
-    .fs_xxl {
-        font-size: var(--xl-fs);
+    .white_box_primary {
+        padding: 10px 15px !important; 
     }
-
-    .fs_xl {
-        font-size: var(--lg-fs);
+    
+    .white_box_secondary {
+        padding: 10px 20px !important;
     }
+    .white_box_3rd {
+        padding: 10px 20px !important;
+    }
+    
 }
+
