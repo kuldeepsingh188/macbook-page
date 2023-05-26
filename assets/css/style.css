@@ -227,6 +227,12 @@ background-color: #FFFFFF;
     padding: 43px 120px !important;
     border-radius: 0px 39px 0px 0px;
 }
+.white_box_3rd {
+    background-color: white;
+    padding: 43px 113px !important;
+    border-radius: 39px 0px 0px 0px;
+}
+
 footer span img:hover{
     cursor: pointer;
 }
@@ -244,6 +250,7 @@ footer span img:hover{
     .overflow_img_secondary {
         position: absolute;
         display: flex;
+        justify-content: center;
         left: 0;
         padding: 0;
     }
