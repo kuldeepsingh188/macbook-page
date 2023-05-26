@@ -239,22 +239,15 @@ footer span img:hover{
 }
 
 /* PANKAJ MEDIA QUERY  */
-@media (min-width:1300px) {
+@media (min-width:992px) {
     .overflow_img_primary {
-        position: absolute;
-        display: flex;
-        right: 0;
-        padding: 0;
-    
+       transform:translateX(14%) ;
     }
     
     .overflow_img_secondary {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        left: 0;
-        padding: 0;
+        transform:translateX(-14%) ;
     }
+   
 }
 
 
@@ -262,7 +255,7 @@ footer span img:hover{
 
 @media (min-width:992px) {
     .section_transform {
-        transform: translateY(-50%);
+        transform: translateY(-40%);
         padding: 100px;
     }
    
