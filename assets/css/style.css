@@ -11,13 +11,11 @@
 
 .container_css {
     max-width: 1320px !important;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-
-
 
 .smarter {
     max-width: 729px;
@@ -29,7 +27,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.overflow_x_hidden{
+    overflow-x: hidden;
+}
 .bg_body {
     background: #f1f3f6;
 }
@@ -63,7 +63,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-
 /* -----------font-weight-------- */
 
 .fw_400 {
@@ -81,8 +80,6 @@
 .fw_700 {
     font-weight: 700;
 }
-
-
 
 /* ------font-size-------------- */
 
@@ -117,6 +114,11 @@ footer ul li:hover {
     cursor: pointer;
 }
 
+.mx-12 {
+    margin-left: -12px !important;
+    margin-right: -12px !important;
+}
+
 .img_1 {
     padding: 25px 40px;
     background: #FFFFFF;
@@ -128,7 +130,6 @@ footer ul li:hover {
     background: #FFFFFF;
     border-radius: 20px;
 }
-
 
 .img_3 {
     padding: 10px 10px;
@@ -225,21 +226,6 @@ footer ul li:hover {
     background-color: #ffffff;
     width: 100%;
 }
-
-/* .overflow_img_primary {
-    position: absolute;
-    display: flex;
-    right: 0;
-    padding: 0;
-
-}
-
-.overflow_img_secondary {
-    position: absolute;
-    display: flex;
-    left: 0;
-    padding: 0;
-} */
 
 .white_box_primary {
     background-color: white;
@@ -424,5 +410,4 @@ footer span img:hover {
         transform: translateY(-50%);
         padding: 80px;
     }
-
 }
