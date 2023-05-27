@@ -264,24 +264,40 @@ footer span img:hover {
 }
 
 /* PANKAJ MEDIA QUERY  */
-@media (min-width:1300px) {
+@media (min-width:992px) {
     .overflow_img_primary {
+<<<<<<< HEAD
         position: absolute;
         display: flex;
         right: 0;
         padding: 0;
 
+=======
+       transform:translateX(14%) ;
+>>>>>>> c6e0aeff5a1e368b28d6cedffb1947b2c9566339
     }
 
     .overflow_img_secondary {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        left: 0;
-        padding: 0;
+        transform:translateX(-14%) ;
     }
+   
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+@media (min-width:992px) {
+    .section_transform {
+        transform: translateY(-40%);
+        padding: 100px;
+    }
+   
+    
+   
+}
+>>>>>>> c6e0aeff5a1e368b28d6cedffb1947b2c9566339
 /* KULDEEP MEDIA QUERY  */
 @media (max-width:992px) {
     .column_reverse {
