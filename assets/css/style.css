@@ -195,6 +195,15 @@ footer ul li:hover {
     padding: 80px;
 }
 
+ul li a:hover{
+    font-weight: 700;
+}
+
+ul li:hover{
+    font-weight: 700 !important;
+    cursor: pointer;
+}
+
 .contact_btn {
     padding: 13px 36px;
     background-color: black;
